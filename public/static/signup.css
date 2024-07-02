@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.signup-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF2D7;
+
+    h1{
+        position: absolute;
+        top: 0;
+    }
+}
+
+.formParent{
+    width: 75vw;
+    height: 70vh;
+    /* border: solid 1px red; */
+    display: flex;
+    box-shadow: 6px 7px 20px black;
+    border-radius: 10px;
+}
+
+.imgForm{
+    /* position: absolute; */
+    /* right: ;
+     */
+     height: 100%;
+    left: 0;
+    top: 0;
+    width: 50%;
+    background-color:green ;
+    background: url('https://img.freepik.com/premium-vector/chatbot-concept-background-realistic-style_23-2147826283.jpg?w=740') no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.signup-form {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto; 
+}
+
+.signup-form h2 {
+    font-size: 32px;
+    margin: 20px 0 60px 0%;
+}
+
+.signup-form input {
+    width: calc(100% - 24px); 
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 8px; 
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.signup-form input:hover {
+    border-color: #007bff; 
+}
+
+.signup-form input[type="submit"] {
+    width: calc(30%); 
+    height: 40px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: -10px; 
+    transition: background-color 0.3s ease;
+}
+
+.signup-form input[type='submit']:hover {
+    background-color: #0056b3; 
+}
+
+/* login changes */
